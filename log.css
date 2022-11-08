@@ -1,17 +1,25 @@
 * {
   box-sizing: border-box;
-  margin: 0% auto;
-  padding: 0.5rem;
+  margin: 0%;
+  padding: 0%;
 }
 html {
   font-size: 62.5%;
-  font-family: roboto;
+  font-family: "Roboto", sans-serif;
 }
 
 body {
   background-image: url(/image/backgrond\ login\ image.svg);
   background-size: cover;
   font-family: roboto;
+  line-height: 1.2;
+  overflow-x: hidden;
+}
+
+.header-container {
+  display: flex;
+  padding: 1.9em;
+  width: 110%;
 }
 .div-form {
   background-color: white;
@@ -41,4 +49,18 @@ form {
 .log {
   padding-left: 31%;
   padding-right: 31%;
+}
+a {
+  text-decoration: none;
+}
+
+/* //////////////////////////////////////sign up  page//////////////////////////////////// */
+
+.sign-up {
+  background-color: #ffb340;
+  padding-top: 0.9rem;
+  padding-bottom: 0.9rem;
+  padding-right: 0.9rem;
+  padding-left: 0.9rem;
+  margin-left: 85.6rem;
 }

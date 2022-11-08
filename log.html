@@ -23,23 +23,46 @@
   <link rel="stylesheet" href="log.css" />
 
   <body>
-    <div>
-      <img src="/image/download.svg" alt="" />
-    </div>
+    <main>
+      <header class="header">
+        <div class="header-container">
+          <div class="img-container">
+            <img src="/image/download.svg" alt="" />
+          </div>
 
-    <div class="div-form">
-      <p class="fs-4 fw-bolder">Login to your account</p>
-      <form action="register.php" method="get">
-        <input class="email" id="email" type="mail" placeholder="Email address" />
-        <input class="password" id="Password" type="mail" placeholder="Password" />
-      </form>
-      <button
-        class="btn log ms-2 btn-lg mt-3"
-        style="background-color: #ffb340"
-      >
-        LogIn
-      </button>
-      <p class="text-primary"> Forgot Password?</p>
-    </div>
+          <nav class="nav">
+            <a href=""><button class="sign-up">Create account</button></a>
+            
+          </nav>
+        </div>
+      </header>
+
+      <div class="div-form">
+        <p class="fs-4 fw-bolder">Login to your account</p>
+        <form action="register.php" method="get">
+          <input
+            class="email"
+            id="email"
+            type="mail"
+            placeholder="Email address"
+          />
+          <input
+            class="password"
+            id="Password"
+            type="mail"
+            placeholder="Password"
+          />
+        </form>
+        <button
+          class="btn log ms-2 btn-lg mt-3"
+          style="background-color: #ffb340"
+        >
+          LogIn
+        </button>
+        <a href="">
+          <p class="text-primary">Forgot Password?</p>
+        </a>
+      </div>
+    </main>
   </body>
 </html>
