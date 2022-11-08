@@ -6,13 +6,12 @@
 html {
   font-size: 62.5%;
   font-family: roboto;
-  font-weight: 600;
 }
 
 body {
   background-image: url(/image/backgrond\ login\ image.svg);
   background-size: cover;
-   font-family: roboto;
+  font-family: roboto;
 }
 .div-form {
   background-color: white;
@@ -25,9 +24,21 @@ body {
 }
 form {
 }
-#email {
-  padding: 2%;
+.email {
+  padding: 3%;
   border-radius: 2%;
-  border: 1%;
   margin-top: 4%;
+  border: groove #ffffff;
+}
+
+.password {
+  padding: 3%;
+  border-radius: 2%;
+  margin-top: 7%;
+  border: groove #ffffff;
+}
+
+.log {
+  padding-left: 31%;
+  padding-right: 31%;
 }
