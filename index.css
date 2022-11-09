@@ -43,4 +43,63 @@ body {
   justify-content: space-between;
 }
 
-/* Main Body styling //////////////*/
+/* hero section styling //////////////*/
+@font-face {
+  font-family: herofont;
+  src: url(/Millik.ttf);
+}
+@font-face {
+  font-family: herop;
+  src: url(/Moderat-Regular.ttf);
+}
+.hero-container{
+  display: flex;
+}
+.hero-journey {
+  font-family: herofont;
+  font-size: 6rem;
+}
+.info-image {
+  margin-left: 17%;
+  margin-top: 0%;
+}
+.info-p {
+  font-family: herop;
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 1.6;
+  padding-top: 1rem;
+}
+
+.eko input {
+  padding-left: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border: 1px groove;
+  border-color: rgb(255, 248, 248);
+  border-right: none;
+  border-bottom-left-radius: 30px;
+  border-start-start-radius: 30px;
+  width: 30%;
+  margin-top: 2rem;
+}
+.app{
+  background-color: black;
+  color: white;
+  padding: 2rem;
+  font-size: 1.5rem;
+  border-top-right-radius: 45px;
+  border-bottom-right-radius: 45px;
+  border: none;
+  font-weight: 600;
+}
+.repay{
+  display: flex;
+  margin-top: 2rem;
+}
+.repay-info{
+  font-family: herop;
+  margin-left: 2.3rem;
+  font-size: 1rem;
+  font-weight: 600;
+}
