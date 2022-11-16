@@ -18,8 +18,7 @@ body {
   padding: 2.4rem 4.2rem;
 }
 .header {
-  max-width: 70rem;
-  max-width: 114rem;
+  max-width: 120rem;
   padding: 2rem 2rem;
 }
 .nav-links {
@@ -58,9 +57,10 @@ body {
 .hero-journey {
   font-family: herofont;
   font-size: 6rem;
+  width: 100%;
 }
 .info-image {
-  margin-left: 17%;
+  margin-left: 10rem;
   margin-top: 0%;
 }
 .info-p {
