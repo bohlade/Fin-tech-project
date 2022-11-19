@@ -12,10 +12,12 @@ body {
   line-height: 1.2;
   background-color: #f6f5f1;
 }
+
 .center {
   max-width: 100rem;
   margin: 0% auto;
-  padding: 2.4rem 4.2rem;
+  padding-top: 2.4rem;
+  padding-left: 2.5rem;
 }
 .header {
   max-width: 120rem;
@@ -53,6 +55,10 @@ body {
 }
 .hero-container {
   display: flex;
+  width: 100%;
+}
+.hero-info {
+  width: 50%;
 }
 .hero-journey {
   font-family: herofont;
@@ -60,8 +66,9 @@ body {
   width: 100%;
 }
 .info-image {
-  margin-left: 10rem;
-  margin-top: 0%;
+  margin-left: 17rem;
+  margin-top: -75px;
+  width: 35%;
 }
 .info-p {
   font-family: herop;
@@ -103,13 +110,7 @@ body {
   font-size: 1rem;
   font-weight: 600;
 }
-.hero-pic {
-  margin-top: 13rem;
-  border-radius: 70px;
-  overflow-x: hidden;
-  margin-right: 12rem;
-}
-.empower{
+.empower {
   font-family: herop;
   font-weight: 600;
   margin-top: 5rem;
@@ -117,37 +118,348 @@ body {
   line-height: 1.5;
 }
 
-                /* section 2222222222222222222222222222222222222222222222 */
- .advanced{
+.hero-img {
+  width: 40%;
+}
+.hero-pic {
+  margin-top: 4rem;
+  border-radius: 4rem;
+  width: 80%;
+  margin-right: 8rem;
+}
+
+/* section 2222222222222222222222222222222222222222222222 */
+.advanced {
   background-color: black;
- } 
- .advanced-container{
+}
+.advanced-container {
   display: flex;
- }  
- .promo{
+}
+.promo {
   width: 100%;
- } 
- .advanced-img{
+}
+.advanced-img {
   border-radius: 6rem;
   margin-left: 5rem;
   margin-top: 3rem;
- }      
- .advanced2{
+}
+.advanced2 {
   width: 100%;
   margin-left: -7%;
- }     
- .help{
+}
+.help {
   font-size: 1.7rem;
   padding-top: 9rem;
   padding-left: 15rem;
   font-weight: 900;
- }
- .million{
+}
+.million {
   color: white;
   margin-top: -16rem;
   margin-left: 7rem;
-  font-size: 3rem;
   font-size: 4rem;
   font-weight: 600;
   font-family: herofont;
- }
+}
+
+/* section 33333333333333333333333 */
+.product {
+  margin: 10rem;
+  text-align: center;
+}
+.product h4 {
+  font-weight: 900;
+  font-size: 2rem;
+}
+.product h3 {
+  font-size: 4rem;
+  font-weight: 900;
+  font-family: herofont;
+}
+
+/* section 444444444444444444444 */
+.cash-img {
+  display: flex;
+  background-color: #fcd0ba;
+  max-width: 80rem;
+  padding-left: 7rem;
+  padding-top: 13rem;
+  border-radius: 1rem;
+}
+.cash-img img {
+  width: 35%;
+}
+.cash2 {
+  margin: 0% auto;
+  width: 45%;
+  padding-top: 3rem;
+}
+.cash2 h4 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+.cash2 h2 {
+  font-size: 4rem;
+  font-family: herofont;
+}
+.cash2 img {
+  width: 10%;
+  margin-right: 0.5rem;
+}
+.cash2 span {
+  font-size: 1.9rem;
+  margin-left: 2rem;
+  font-weight: 600;
+}
+.cash-ul {
+  margin-top: 3rem;
+}
+li {
+  display: flex;
+  font-family: herop;
+  margin-top: 1rem;
+  align-items: center;
+}
+
+/* section 55555555555555555555555 */
+
+.upgrade-img {
+  display: flex;
+  background-color: #fcd0ba;
+  max-width: 80rem;
+  padding-left: 7rem;
+  padding-top: 13rem;
+  margin-top: 4rem;
+  border-radius: 1rem;
+}
+.upgrade-img img {
+  width: 35%;
+}
+.upgrade2 {
+  margin: 0% auto;
+  width: 45%;
+  padding-top: 3rem;
+}
+.upgrade-soon {
+  width: 35%;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border: 1rem;
+  border-radius: 2rem;
+  padding-left: 0.1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-top: 4rem;
+  font-family: herop;
+}
+.upgrade-soon p {
+  font-size: 1rem;
+  margin: auto;
+}
+.upgrade-soon img {
+  width: 1%;
+  margin-left: 1rem;
+}
+
+.upgrade2 h4 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+.upgrade2 h2 {
+  font-size: 3.8rem;
+  font-family: herofont;
+}
+.upgrade2 img {
+  width: 10%;
+  margin-right: 0.5rem;
+}
+.upgrade2 span {
+  font-size: 1.78rem;
+  margin-left: 2rem;
+  font-weight: 600;
+}
+.upgrade-ul {
+  margin-top: 3rem;
+}
+li {
+  display: flex;
+  font-family: herop;
+  margin-top: 1.4rem;
+  align-items: center;
+}
+.read{
+  background-color: black;
+  width: 50%;
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  margin-top: 3rem;
+}
+.read p{
+  margin: auto;
+  color: #f6f5f1;
+  font-size: 1.5rem;
+}
+
+/* section 66666666666666666 */
+.step1 {
+  text-align: center;
+  margin-top: 20rem;
+}
+.step1 h4 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+.step1 h3 {
+  font-family: herofont;
+  font-size: 4.2rem;
+  width: 50%;
+  margin: 0% auto;
+}
+
+/* Media query */
+@media (max-width: 28rem) {
+  html,
+  body {
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+    padding: 0%;
+    overflow-x: hidden;
+  }
+
+  * {
+    text-align: center;
+  }
+
+  .header-logo {
+    width: 25%;
+  }
+  .logo {
+    width: 100%;
+  }
+  .header-container {
+    display: flex;
+  }
+  .nav-links {
+    display: block;
+    font-size: 0.5rem;
+    margin-left: 6rem;
+  }
+
+  .nav-links a {
+    text-decoration: none;
+    color: black;
+    margin-right: 0.5rem;
+  }
+  .hero-container {
+    display: block;
+    width: 100%;
+    padding-top: 0.5rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    text-align: center;
+  }
+
+  .hero-info {
+    width: 100%;
+  }
+  .hero-journey {
+    font-size: 2.3rem;
+    width: 100%;
+    text-align: center;
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+
+  .info-image {
+    width: 33%;
+    margin-left: 8rem;
+    margin-bottom: -53px;
+  }
+  .info-p {
+    font-family: herop;
+    font-size: 0.9rem;
+    line-height: 1;
+    padding-left: 0%;
+    padding-right: 0%;
+    text-align: center;
+    margin-top: -28px;
+  }
+  .eko input {
+    display: none;
+  }
+  .app {
+    display: none;
+  }
+
+  .repay {
+    display: flex;
+    margin-top: 4rem;
+    width: 100%;
+    text-align: center;
+  }
+  .repay-img {
+    width: 20%;
+  }
+  .repay-info {
+    font-family: herop;
+    margin-left: 1rem;
+    font-size: 1.3rem;
+    font-weight: 900;
+    text-align: left;
+    width: 80%;
+  }
+
+  .empower {
+    font-family: herop;
+    font-weight: 600;
+    margin-top: 5rem;
+    word-spacing: 0.1rem;
+    line-height: 1.3;
+    width: 100%;
+  }
+  .finwise {
+    text-align: center;
+  }
+
+  .hero-img {
+    width: 100%;
+  }
+  .hero-pic {
+    margin-top: 4rem;
+    border-radius: 0rem;
+    width: 100%;
+    margin-right: 8rem;
+  }
+
+  /* section 2 */
+  .promo {
+    display: none;
+  }
+  .advanced-container {
+    display: block;
+  }
+  .advanced2 {
+    width: 100%;
+    margin-left: 0px;
+  }
+  .help {
+    font-size: 1.2rem;
+    padding-top: 1rem;
+    padding-left: 0rem;
+    font-weight: 900;
+  }
+  .advanced2-img {
+    width: 50%;
+    margin-top: 2rem;
+  }
+  .million {
+    color: white;
+    margin-top: -5rem;
+    margin-left: 0rem;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: herofont;
+  }
+}
