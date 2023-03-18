@@ -1,84 +1,79 @@
-*{
+* {
   margin: 0%;
   padding: 0%;
   box-sizing: border-box;
-  
 }
 
-@font-face{
+@font-face {
   font-family: myfont;
   src: url(/Moderat-Medium.ttf);
 }
 
-html{
+html {
   font-family: myfont;
 }
-body{
+body {
   background-image: url(/image/backgrond\ login\ image.svg);
   overflow-x: hidden;
   font-family: myfont;
 }
-.header{
+.header {
   max-width: 100%;
 }
-.header-container{
+.header-container {
   display: flex;
   padding: 3.9%;
   width: 60%;
-
 }
-.login{
-   background-color: #ffb340;
-   padding-top: 2%;
-   padding-bottom:2% ;
-   padding-left: 4%;
-   padding-right:4% ;
-   border-radius: 6%;
-   border: none;
-   margin-left: 630%;
-   width: 120%;
-   font-family: myfont;
+.login {
+  background-color: #ffb340;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 4%;
+  padding-right: 4%;
+  border-radius: 6%;
+  border: none;
+  margin-left: 550%;
+  width: 120%;
+  font-family: myfont;
 }
-
 
 /* ///////////////////////form section////////////////////////////////// */
 
-.form-container{
+.form-container {
   background-color: white;
   display: inline-block;
   margin-left: 4%;
   padding-top: 2%;
   padding-left: 3%;
   padding-right: 7%;
-  
 }
 
-.form{
+.form {
   display: inline-block;
   margin-left: 1%;
   background-color: white;
   font-family: myfont;
-
 }
-.empower{
+.empower {
   font-family: myfont2;
   font-size: 1%;
 }
-@font-face{
+@font-face {
   font-family: myfont2;
   src: url(/Moderat-Black.ttf);
 }
-select{
-margin-bottom: 10%;
-padding-right: 11.7%;
+select {
+  margin-bottom: 10%;
+  padding-right: 11.7%;
 }
-.fullname{
+.fullname {
   margin-top: 7%;
   padding-right: 15%;
   padding-left: 4%;
   border-radius: 5px;
 }
-.sign-button{
+.sign-button {
   border: none;
   background-color: #ffb340;
   border-radius: 4px;
@@ -89,10 +84,120 @@ padding-right: 11.7%;
   padding-right: 28%;
   width: 109%;
 }
-.policy{
+.policy {
   line-height: 80%;
   color: #828282;
   margin-top: 10%;
   font-weight: 500;
   font-size: 99%;
+}
+
+/* media media media media  media query  */
+/* 414px */
+@media (max-width: 26rem) {
+  .html,
+  body {
+    overflow-x: hidden;
+  }
+  .container-image {
+    width: 40%;
+  }
+  .form-container {
+    background-color: white;
+    display: inline-block;
+    margin-left: 6%;
+    padding-top: 2%;
+    padding-left: 7%;
+    padding-right: 7%;
+    width: 80%;
+  }
+  .media {
+    width: 60%;
+  }
+  .login {
+    background-color: #ffb340;
+    padding-top: 2%;
+    padding-bottom: 3%;
+    padding-left: 3%;
+    padding-right: 2%;
+    border-radius: 6%;
+    border: none;
+    margin-left: 7rem;
+    width: 100%;
+    /* width: 120%; */
+    font-family: myfont;
+    font-size: 0.8rem;
+  }
+}
+
+/* 360px */
+@media (max-width: 23rem) {
+  .html,
+  body {
+    overflow-x: hidden;
+  }
+  .container-image {
+    width: 30%;
+  }
+  .form-container {
+    background-color: white;
+    display: inline-block;
+    margin-left: 6%;
+    padding-top: 2%;
+    padding-left: 7%;
+    padding-right: 7%;
+    width: 80%;
+  }
+  .media {
+    width: 70%;
+  }
+  .login {
+    background-color: #ffb340;
+    padding-top: 2%;
+    padding-bottom: 3%;
+    padding-left: 3%;
+    padding-right: 2%;
+    border-radius: 6%;
+    border: none;
+    margin-left: 7rem;
+    width: 100%;
+    /* width: 120%; */
+    font-family: myfont;
+  }
+}
+
+/* 280px */
+@media (max-width: 18rem) {
+  .html,
+  body {
+    overflow-x: hidden;
+  }
+  .container-image {
+    width: 40%;
+  }
+  .form-container {
+    background-color: white;
+    display: inline-block;
+    margin-left: 0rem;
+    padding-top: 2%;
+    padding-left: 7%;
+    padding-right: 7%;
+    width: 92%;
+  }
+  .media {
+    width: 60%;
+  }
+  .login {
+    background-color: #ffb340;
+    padding-top: 2%;
+    padding-bottom: 3%;
+    padding-left: 3%;
+    padding-right: 3%;
+    border-radius: 6%;
+    border: none;
+    margin-left: 7rem;
+    width: 100%;
+    font-family: myfont;
+    font-size: 0.6rem;
+  }
 }
